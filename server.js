@@ -13,7 +13,7 @@ const app = express();
 
 const corsOptionsDelegate = function (req, callback) 
 {
-  const allowlist = [`http://localhost:3001`, 'http://127.0.0.1:3001'] // ,'https://naughty-knuth-43c447.netlify.app'
+  const allowlist = [`http://localhost:3001`, 'http://127.0.0.1:3001', 'https://a04-master.herokuapp.com'] // ,'https://naughty-knuth-43c447.netlify.app'
   let corsOptions;
   if (allowlist.indexOf(req.header('Origin')) !== -1) {
     corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
