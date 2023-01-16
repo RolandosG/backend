@@ -5,6 +5,7 @@ https://storepage-back-end.herokuapp.com/
 - / contains customers.
 - /products contains products.
 - /products?category=shoes contains shoes in said category.
+- etc.
 
 ### Back-end app in the form of a restful API for company Shopmart.
 ### This allows administrators to manage products and customers.
